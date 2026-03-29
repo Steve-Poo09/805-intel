@@ -6,8 +6,8 @@ import { useState, useEffect, useRef } from "react";
 //   REACT_APP_USERNAME=yourUsername
 //   REACT_APP_PASSWORD=yourPassword
 // ============================================================
-const VALID_USERNAME = process.env.REACT_APP_USERNAME || "805intel";
-const VALID_PASSWORD = process.env.REACT_APP_PASSWORD || "newsroom2026";
+const VALID_USERNAME = process.env.REACT_APP_USERNAME || "ksbynews";
+const VALID_PASSWORD = process.env.REACT_APP_PASSWORD || "oncallejoaquin";
 const SESSION_KEY = "805intel_auth";
 
 // ============================================================
