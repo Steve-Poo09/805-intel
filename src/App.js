@@ -390,7 +390,7 @@ export default function App() {
     if (!username || !password) { setError("USERNAME AND PASSWORD REQUIRED"); return; }
     setLoading(true);
     await new Promise(r => setTimeout(r, 900));
-    if (username === VALID_USERNAME && password === VALID_PASSWORD) {
+    if (username.trim() === VALID_USERNAME && password.trim() === VALID_PASSWORD) {
       sessionStorage.setItem(SESSION_KEY, "true");
       setAuthed(true);
     } else {
