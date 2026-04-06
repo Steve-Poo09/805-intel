@@ -2,7 +2,7 @@ import { useState, useEffect, useRef } from "react";
 
 // ── Live Pi Backend URL ─────────────────────────────────────
 // Update this URL if your cloudflare tunnel URL changes
-const API_URL = "https://petroleum-crops-determine-lewis.trycloudflare.com";
+const API_URL = "https://classical-organisation-wisconsin-gibson.trycloudflare.com";
 
 // ── Credentials ─────────────────────────────────────────────
 const VALID_USERNAME = "ksbynews";
