@@ -1,4 +1,4 @@
-import import { useState, useEffect, useRef } from "react";
+import { useState, useEffect, useRef } from "react";
 
 // ── Live Pi Backend URL ─────────────────────────────────────
 // Update this URL if your cloudflare tunnel URL changes
