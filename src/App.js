@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 
-const API_URL = "https://alumni-partition-wisdom-genes.trycloudflare.com";
+const API_URL = "https://api.805intel.com";
 const TYPE_CONFIG = {
   FIRE:    { color: "#c0390e", bg: "#fdf0ec", border: "#f5c4b3", badge: "#993c1d" },
   TRAFFIC: { color: "#85500b", bg: "#fdf3e3", border: "#fac775", badge: "#633806" },
